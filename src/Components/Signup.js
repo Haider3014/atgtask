@@ -39,7 +39,7 @@ return (
                       <button type="button" className="btn btn-outline gbtn"><img
                         src={require("../assests/search.png")} alt="glogo" />Sign up with Google</button>
 
-                      <a className="fpass" href="/" target="_blank">Forgot Password?</a>
+                      <a className="fpass" href="..." target="_blank">Forgot Password?</a>
                     </div>
                     <div className="rightside">
                       <p className="signup"> Don't have an account yet? <a
