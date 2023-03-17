@@ -1,0 +1,62 @@
+div h1 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+}
+
+.bannerimg {
+    width: 100%;
+    filter: brightness(50%);
+
+
+}
+
+.bannertext {
+    position: absolute;
+    top: 286px;
+    left: 200px;
+    color: #FFFFFF;
+
+}
+
+/* Responsive */
+@media only screen and (max-width:600px) {
+    .bannerimg {
+        width: 100%;
+        height: 236px;
+    }
+
+    div h1 {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 47px;
+        /* identical to box height */
+    }
+
+    .bannertext {
+        position: absolute;
+        top: 100px;
+        left: 70px;
+        color: #FFFFFF;
+
+    }
+
+    .jnbtn {
+        box-sizing: border-box;
+        display: block!important;
+        position: absolute;
+        width: 76px;
+        height: 28px;
+        left: 450px;
+        top: 22px;
+        border: 0.8px solid #FFFFFF;
+        background: transparent;
+        border-radius: 4px;
+        color:white;
+    }
+}

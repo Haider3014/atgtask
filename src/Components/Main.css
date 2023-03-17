@@ -1,0 +1,526 @@
+.container {
+
+    /* position: relative; */
+    /* min-width:1440px ; */
+
+}
+
+.lists {
+    display: flex;
+    list-style: none;
+    /* top: 559px; */
+    height: 21px;
+    margin-top: 47px;
+    margin-bottom: 40px;
+}
+
+.list {
+    margin: 0 5px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #8A8A8A;
+
+}
+
+.buttons {
+    margin-left: 420px;
+    margin-bottom: 4px;
+}
+
+.one {
+    color: black;
+    font-weight: 400;
+}
+
+.hline {
+    width: 1040px;
+    height: 0px;
+    margin-left: 37px;
+    border: 1px solid #E0E0E0;
+}
+
+.hline2 {
+    width: 91px;
+    height: 0px;
+    margin-left: 37px;
+    border: 1px solid #000000;
+}
+
+
+
+.bigcards {
+    width: 692px;
+    height: 472px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    margin-bottom: 13px;
+}
+
+.Article {
+    position: absolute;
+    top: 230px;
+    left: 16px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+
+}
+
+.card-title {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.17%;
+    width: 600px;
+    /* or 30px */
+    position: absolute;
+    top: 260px;
+
+
+    color: #000000;
+
+}
+
+.card-text {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+    position: absolute;
+    top: 330px;
+
+    /* or 25px */
+
+
+    color: #5C5C5C;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    height: 70px;
+}
+
+.dp {
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 20px
+}
+
+.profilename {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    position: absolute;
+    left: 78px;
+    bottom: 9px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.views {
+    position: absolute;
+    right: 100px;
+    bottom: 9px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #525252;
+
+}
+
+.eye {
+    position: absolute;
+    left: 500px;
+    bottom: 26px;
+
+}
+
+.share {
+    position: absolute;
+    right: 26px;
+    bottom: 15px;
+    Width: 42px;
+    Height: 36px;
+    background: #EDEEF0;
+    border-radius: 2px;
+    border: none;
+}
+
+.dots {
+    position: absolute;
+    right: 20px;
+    top: 273px;
+    /* transform: rotate(90deg); */
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 300px;
+
+}
+
+.datepic {
+    Width: 15px;
+    Height: 16.67px;
+    margin-right: 6.5px;
+    margin-top: 2px;
+}
+
+.date {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-right: 52px;
+
+}
+
+.locpic {
+    width: 11.67px;
+    height: 16.67px;
+    margin-right: 6.5px;
+    margin-top: 2px;
+}
+
+.locdot {
+    position: absolute;
+    top: 8px;
+    left: 180px;
+    width: 4.17px;
+    height: 4.17px;
+}
+
+.visit {
+    position: absolute;
+    top: 350px;
+    background: #FFFFFF;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 10px;
+    width: 650px;
+    height: 36px;
+    color: #E56135;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    /* or 18px */
+
+    text-align: center;
+}
+
+.small {
+    position: relative;
+    width: 692px;
+    height: 269px;
+}
+
+.fullbody {
+    position: absolute;
+    top: -220px;
+}
+
+.lastdp {
+    position: absolute;
+    top: 205px;
+}
+
+.lastdots {
+    position: absolute;
+    right: -620px;
+}
+
+.lastarticle {
+    position: relative;
+    top: 240px;
+    left: 16px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+
+}
+
+.lastdp {
+    position: absolute;
+    top: 205px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.jobpic {
+    width: 16.67px;
+    height: 15.83px;
+    margin-right: 4px;
+}
+
+.locdot2 {
+    width: 4.17px;
+    height: 4.17px;
+    position: absolute;
+    top: 5px;
+    left: 289.9px;
+}
+
+.locpic2 {
+    width: 11.67px;
+    height: 16.67px;
+    margin-right: 4px;
+}
+
+.company {
+    width: 250px;
+    height: 20px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 3px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.location2 {
+    width: 110px;
+    height: 20px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.apply {
+    position: absolute;
+    top: 350px;
+    width: 650px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #02B875;
+}
+
+.post {
+
+    height: 36px;
+    background: #EDEEF0;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* position: relative;
+    left: 900px; */
+}
+
+.join {
+    background-color: #2F6CE5;
+    color: white;
+    height: 36px;
+    border-radius: 4px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    /* line-height: 20px; */
+}
+
+.smallprofilename {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    position: absolute;
+    left: 60px;
+    bottom: 9px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Locationbar {
+    border: none;
+    border-bottom: 1px solid #1890ff;
+    padding: 5px 10px;
+    outline: none;
+
+}
+
+.locationbarform {
+    position: absolute;
+    left: 940px;
+    top: 600px;
+}
+
+.info {
+    display: flex;
+    position: absolute;
+    left: 940px;
+    top: 680px;
+}
+
+.infosign {
+    position: absolute;
+    left: -20px;
+    top: 14px;
+    width: 13.33px;
+    height: 13.33px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:600px) {
+    .androidpost {
+        display: flex!important;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+
+        color: #212529;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .hline {
+        display: none;
+    }
+
+    .hline2 {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .androidbtn {
+        display: block !important;
+        position:absolute;
+        left:380px;
+        top:280px;
+        background: #F1F3F5;
+        border-radius: 4px;
+        width: 106px;
+        height: 32px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 17px;
+        border:none;
+        /* identical to box height */
+
+
+        color: #212529;
+
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: start!important;
+        align-items: start !important;
+        margin-left:0;
+        padding-left:0;
+    }
+    .locationbarform{
+        display: none;
+    }
+    .info{display: none;}
+
+    .bigcards {
+        position:relative;
+        left:-48.7px;
+        width: 535.56px;
+        height: 472px;
+    
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+        margin-bottom: 13px;
+    }
+
+    .small {
+        position: relative;
+        width: 535.56px;
+        height: 269px;
+        left:-48.7px;
+    }
+    .lastdots {
+        position: absolute;
+        right: -460px;
+    }
+    .eye{
+        position: absolute;
+        left:340px;
+        bottom:24px;
+    }
+
+}
