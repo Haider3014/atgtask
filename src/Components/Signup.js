@@ -43,7 +43,7 @@ return (
                     </div>
                     <div className="rightside">
                       <p className="signup"> Don't have an account yet? <a
-                         data-bs-toggle="modal" data-bs-target="#Login" className="sulink"><span style={{"color":"#2F6CE5","cursor":"pointer"}}>Create new for free!</span></a></p>
+                         data-bs-toggle="modal" href="..."data-bs-target="#Login" className="sulink"><span style={{"color":"#2F6CE5","cursor":"pointer"}}>Create new for free!</span></a></p>
                       <img className="atgl" src={require("../assests/atg_illustration.png")} alt="pic" />
                     </div>
                   </div>
