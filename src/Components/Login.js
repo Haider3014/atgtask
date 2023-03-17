@@ -30,7 +30,7 @@ function Login() {
                                             <div className="credentials">
                                                 <input className="cred" type="email" placeholder="Email" />
                                                 <input className="cred" type="Password" placeholder="Password" />
-                                                <span><img className="eyeimg" src={require("../assests/Group 3.png")} /></span>
+                                                <span><img className="eyeimg" src={require("../assests/Group 3.png")} alt="..."/></span>
                                                 <input className="cred" type="Password" placeholder="Confirm Password" />
                                             </div>
                                             <button type="button" className="btn btn-primary createbtn">Create Account</button>
@@ -42,7 +42,7 @@ function Login() {
                                         </div>
                                         <div className="rightside">
                                             <p className="signin"> Already have an account?
-                                                <a data-bs-toggle="modal" data-bs-target="#signup"><span style={{ "color": "#2F6CE5","cursor":"pointer" }} >Sign In</span></a></p>
+                                                <a  href="..."data-bs-toggle="modal" data-bs-target="#signup"><span style={{ "color": "#2F6CE5","cursor":"pointer" }} >Sign In</span></a></p>
                                             <img className="atgl" src={require("../assests/atg_illustration.png")} alt="pic" />
                                             <p className="endline">By signing up, you agree to our Terms & conditions, Privacy
                                                 policy</p>

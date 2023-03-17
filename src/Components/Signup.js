@@ -1,5 +1,4 @@
-import {React,useState,useEffect} from 'react'
-import Navbar from './Navbar'
+import {React} from 'react'
 import "./Signup.css"
 
 function Signup() {
@@ -31,7 +30,7 @@ return (
                       <div className="credentials">
                         <input className="cred" type="email" placeholder="Email" />
                         <input className="cred" type="Password" placeholder="Password" />
-                        <span><img className="eyeimg" src={require("../assests/Group 3.png")} /></span>
+                        <span><img className="eyeimg" src={require("../assests/Group 3.png")}  alt="..."/></span>
                       </div>
                       <button type="button" className="btn btn-primary createbtn">Create Account</button>
                       <button type="button" className="btn btn-outline fbutton"><img
